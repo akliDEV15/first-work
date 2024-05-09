@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Il Miglior Ristorante</title>
+    <!-- Lien pour le fichier Style -->
+    <link rel="stylesheet" href="../style/styleMenu.css">
+    <!-- Mon font -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Liens pour mes icones-->
+    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
+</head>
+
+<body>
+    <!-- Début de notre header -->
+    <header class="ha">
+        <div id="navbar">
+            <img src="../image/logorestaurant.png" a>
+            <nav role="navigation">
+                <ul>
+                    <li><a href="../index.html">Acceuil</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+     <!--fin de notre header -->
+    <!-- carousel -->
+    <div class="carousel">
+        <div class="list">
+            <div class="item">
+                <img src="../image/steak.jpg">
+                <div class="content">
+                    <div class="title">Les plats les plus vendu :</div>
+                    <div class="topic">Capo Steak</div>
+                    <div class="des">
+                        Steaks de bœuf de haute qualité<br>
+                        Assaisonnements, légumes grillés, pommes de terre rôties,<br> sauce au choix et garnitures supplémentaires
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="../image/cheese pizza.jpg">
+                <div class="content">
+                    <div class="title">Les plats les plus vendu :</div>
+                    <div class="topic">Cheese pizza</div>
+                    <div class="des">
+                        Pâte à pizza, sauce tomate, fromage (mozzarella), <br>garnitures au choix 
+                        Assaisonnements (basilic, origan, ail en poudre), <br>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="../image/tiramis2.jpg">
+                <div class="content">
+                    <div class="title">Les plats les plus vendu :</div>
+                    <div class="topic">Tiramisu</div>
+                    <div class="des">
+                        Café fort, Biscuits à la cuillère, Mascarpone, Œufs, Sucre, <br> Cacao en poudre. <br>
+                        un Tiramisu acheter un Tiramisu offert.
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="../image/salade.jpg">
+                <div class="content">
+                    <div class="title">Les plats les plus vendu :</div>
+                    <div class="topic">Salade </div>
+                    <div class="des">
+                        Salade, Tomate cerise, Betrave, Carotte rape, vinegrette affinée.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- list thumnail -->
+        <div class="thumbnail">
+            <div class="item">
+                <img src="../image/steak.jpg">
+                <div class="content">
+                    <div class="title">
+                        Capo Steak
+                    </div>
+                    <div class="description">
+                        1500 DA
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="../image/cheese pizza.jpg">
+                <div class="content">
+                    <div class="title">
+                        Cheese pizza
+                    </div>
+                    <div class="description">
+                        1200 DA
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="../image/tiramis2.jpg">
+                <div class="content">
+                    <div class="title">
+                        Tiramisu
+                    </div>
+                    <div class="description">
+                        700 DA
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="../image/salade.jpg">
+                <div class="content">
+                    <div class="title">
+                        Salade
+                    </div>
+                    <div class="description">
+                        500 DA
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- next prev -->
+
+        <div class="arrows">
+            <button id="prev"></button>
+            <button id="next">></button>
+        </div>
+        <!-- time running -->
+        <div class="time"></div>
+    </div>
+
+    <script src="../JS/slide2.js"></script>
+    <!-- Menu Section Start -->
+    <section id="menu">
+        <div class="container">
+            <div class="title">
+                <h2>Notre Menu Spéciale : </h2>
+                <p>Nos entrées:</p>
+            </div>
+            <div class="menu-items">
+                <div class="menu-items-left">
+                    <div class="menu-item">
+                        <img src="../image/result (11).png" ">
+                        <div>
+                            <h3>MILLE <span class="primary-text">1300 DA</span></h3>
+                            <p>Tortilla, Thon, Huile d'olives, Tomate, Saumon fume.</p>
+                            <button class="btn btn-third"><a href="#">COMMANDER</a></button>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <img src="../image/food1.png" >
+                        <div>
+                            <h3>LASAL CHEESE <span class="primary-text">1000 DA</span></h3>
+                            <p>Salade, Tomate cerise, Olives, Mozzarella, Truffe.</p>
+                            <button class="btn btn-third"><a href="#">COMMANDER</a></button>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="menu-items-right">
+                    <div class="menu-item">
+                        <img src="../image/food10.jpeg">
+                        <div>
+                            <h3>SALADE DE FRUIT<span class="primary-text">  600 DA</span></h3>
+                            <p>Salade, Fraise, Ananas, Orange, Mertilles.</p>
+                            <button class="btn btn-third"><a href="#">COMMANDER</a></button>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <img src="../image/result (12).png">
+                        <div>
+                            <h3> SALADE <span class="primary-text">500 DA</span></h3>
+                            <p>Salade, Tomate cerise, Betrave, Carotte rape.</p>
+                            <button class="btn btn-third"><a href="#">COMMANDER</a></button>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="menu">
+        <div class="container">
+            <div class="title">
+                <p>Nos Plates principaux :</p>
+                <br>
+            </div>
+            <div class="menu-items">
+                <div class="menu-items-left">
+                    <div class="menu-item">
+                        <img src="../image/offer2.png">
+                        <div>
+                            <h3>VEGETARIAN PASTA<span class="primary-text"><del>1200 DA</del> 800 DA</span></span></h3>
+                            <p>Spaghetti, Sauce aux truffes et aux tomates, Casilic, Curcuma, Paprika.</p>
+                            <button class="btn btn-third"><a href="#">COMMANDER</a></button>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <img src="../image/food4.png" >
+                        <div>
+                            <h3>CAPO STEAK <span class="primary-text">1500 DA</span></h3>
+                            <p>Steak de veau, Sauce aux truffes, Pommes de terre, Persil, Gingembre.</p>
+                            <button class="btn btn-third"><a href="#">COMMANDER</a></button>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <img src="../image/food6.png" >
+                        <div>
+                            <h3>CHEESE PIZZA <span class="primary-text">1200 DA</span></h3>
+                            <p>Pate a pizza, Sauce tomate, Mozzarella, Burrata, Pecorino, Olives.</p>
+                            <button class="btn btn-third"><a href="#">COMMANDER</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-items-right">
+                    <div class="menu-item">
+                        <img src="../image/offer1.png" >
+                        <div>
+                            <h3>QUATTRO PASTA<span class="primary-text"><del>1500 DA</del> 800 DA</span></span></h3>
+                            <p>4 types de pattes, Sauce au frommage, Basilic, Pesto. </p>
+                            <button class="btn btn-third"><a href="#">COMMANDER</a></button>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <img src="../image/offer3.png" >
+                        <div>
+                            <h3>GLUTEN-FREE PASTA <span class="primary-text"><del>1500 DA</del> 800 DA</span></span></h3>
+                            <p>Spaghetti sans gluten, Sauce tomate, Tofu, Basilic, Curcuma, Paprika.</p>
+                            <button class="btn btn-third"><a href="#">COMMANDER</a></button>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <img src="../image/food12.jpeg" >
+                        <div>
+                            <h3>MEGA CHEESE PIZZA <span class="primary-text">3000 DA</span></h3>
+                            <p>Pate a pizza geante, Sauce tomate, Mozzarella, Burrata, Pecorino, Olives.</p>
+                            <button class="btn btn-third"><a href="#">COMMANDER</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="menu">
+        <div class="container">
+            <div class="title">
+                <p>Nos Boissons Et Dessertd : <br></p>
+            </div>
+            <div class="menu-items">
+                <div class="menu-items-left">
+                    <div class="menu-item">
+                        <img src="../image/result (13).png" >
+                        <div>
+                            <h3>TIRAMISU <span class="primary-text">700 DA</span></h3>
+                            <p>Café fort, Biscuits à la cuillère, Mascarpone, Œufs, Sucre, Cacao en poudre.</p>
+                            <button class="btn btn-third"><a href="#">COMMANDER</a></button>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <img src="../image/torta.jpeg" >
+                        <div>
+                            <h3>TORTA CAPRESES <span class="primary-text">1000 DA</span></h3>
+                            <p>Chocolat noir, Beurre, Sucre , Œufs, Noisettes,,Farine d'amande, Levure chimique, Sel.</p>
+                            <button class="btn btn-third"><a href="#">COMMANDER</a></button>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <img src="../image/food3.png" >
+                        <div>
+                            <h3>KOKTAIL JUCIE <span class="primary-text">500 DA</span></h3>
+                            <p>Orange, Ananas, Cranberry, Citron, Sirop de sucre de canne, Glace pilée, Tranches de fruits frais.</p>
+                            <button class="btn btn-third"><a href="#">COMMANDER</a></button>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <img src="../image/food5.png" >
+                        <div>
+                            <h3>ROULATIAS <span class="primary-text">800 DA</span></h3>
+                            <p>Farine, Œufs, Levure, Sel, Sucre, Lait, Beurre, Huile de friture.</p>
+                            <button class="btn btn-third"><a href="#">COMMANDER</a></button>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="menu-items-right">
+                    <div class="menu-item">
+                        <img src="../image/téléchargement.jpeg" >
+                        <div>
+                            <h3> OREO ICE CREAM CAKE<span class="primary-text">1000 DA</span></h3>
+                            <p>Oreo, Crème glacée à la vanille, Beurre, Farine, Œufs, Crème fouettée , Morceaux d'Oreo.</p>
+                            <button class="btn btn-third"><a href="#">COMMANDER</a></button>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <img src="../image/FRAISE1.jpeg" >
+                        <div>
+                            <h3>JUS DE FRAISE <span class="primary-text"> 400 DA</span></h3>
+                            <p>Fraises fraîches, Sucre, Citron. </p>
+                            <button class="btn btn-third"><a href="#">COMMANDER</a></button>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <img src="../image/food9.jpeg" >
+                        <div>
+                            <h3>HONEY TOST <span class="primary-text">700 DA</span></h3>
+                            <p>Pain de mie, Œufs, Lait, Miel, Beurre, Sucre glace, Fruits frais.</p>
+                            <button class="btn btn-third"><a href="#">COMMANDER</a></button>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <img src="../image/APPELE.jpeg" >
+                        <div>
+                            <h3>APPELE JUCIE <span class="primary-text">400 DA</span></h3>
+                            <p>Pommes fraîches, Sucre, Citron. </p>
+                            <button class="btn btn-third"><a href="#">COMMANDER</a></button>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Menu Section End -->
+    <!-- Début footer -->
+    <footer id="footer">
+       
+        <div class="contactfinal">
+            <p>Contacts : 0675847754</p>
+            <a href="https://www.facebook.com">Facebook</a>
+            <a href="https://www.instagram.com">Instagram</a>
+        </div>
+        <p><a href="https://www.google.com/intl/fr/gmail/about/"></a>IlMigliorRistoranteBoghni@gmail.com</p> 
+        <p>Copyright &copy; 2024 All rights reserved | made by <b> Mansouri Akli , Messaoudi_Dit_Mahmoudi Madjid abd Ben_Nabi Akli</b></p>
+    </footer>
+    <!-- fin footer -->
+    
